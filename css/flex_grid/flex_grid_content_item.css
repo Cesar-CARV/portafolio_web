@@ -1,0 +1,32 @@
+.flex_grid__content__item{
+	flex-basis: 156px;
+	flex-shrink: 0;
+	flex-grow: 1;
+}
+
+.flex_grid__content__item--block{
+	flex-basis: 296px;
+	flex-shrink: 0;
+	flex-grow: 1;
+	padding: 1rem;
+}
+
+@media (min-width: 487px){
+	.flex_grid__content__item{
+		flex-basis: 224px;
+	}
+
+	.flex_grid__content__item--block{
+
+	}
+}
+
+@media (min-width: 1000px){
+	.flex_grid__content__item{
+		flex-basis: 176px;
+	}
+
+	.flex_grid__content__item--block{
+		flex-basis: 300px;
+	}
+}

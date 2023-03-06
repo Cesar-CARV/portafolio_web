@@ -1,0 +1,12 @@
+.contact__image{
+	display: none;
+	flex-shrink: 2;
+	flex-grow: 1;
+}
+
+@media (min-width: 1000px){
+	.contact__image{
+		display: block;
+		max-width: 40%;
+	}
+}

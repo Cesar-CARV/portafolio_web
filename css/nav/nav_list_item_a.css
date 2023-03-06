@@ -1,0 +1,11 @@
+.nav__list__item__a{
+	font-size: .9rem;
+	color: var(--text-color);
+	text-decoration: none;
+	border: solid 2px transparent;
+	transition: border-bottom .1s linear;
+}
+
+.nav__list__item__a:hover{
+	border-bottom: solid 2px var(--text-color);
+}

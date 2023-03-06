@@ -1,0 +1,15 @@
+.input_box__input{
+	border: none;
+	border-bottom: solid .3rem transparent;
+	padding: 0 1rem .3rem 1rem;
+	font-size: 1rem;
+}
+
+.input_box__input:focus{
+	border-bottom: solid .3rem var(--primary-color);
+}
+
+.input_box__input:focus, 
+.input_box__input:valid + .input_box__title{
+	top: 0;
+}

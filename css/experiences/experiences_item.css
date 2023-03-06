@@ -1,0 +1,15 @@
+.experiences__item{
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+}
+
+@media (min-width: 1000px){
+	.experiences__item{
+		flex-direction: row;
+	}
+
+	.experiences__item--left{
+		flex-direction: row-reverse;
+	}
+}

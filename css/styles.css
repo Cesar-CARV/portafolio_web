@@ -1,0 +1,25 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+	font-family: sans-serif;
+	outline: none;
+	scroll-behavior: smooth;
+	scroll-padding: 3rem;
+}
+
+:root{
+	--input-title-color: #2A2A2A;
+	--text-color: #464646;
+	--background: #f5f5f5;
+	--background-card: #fff;
+	--background-light: #f5f5f599;
+	--background-section: #EAF2FD;
+	--primary-color: #2A7AE4;
+	--green-color: #39AB2E;
+	--red-color: #F51714;
+}
+
+body{
+	background-color: var(--background);
+}

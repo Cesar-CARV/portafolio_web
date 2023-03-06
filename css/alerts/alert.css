@@ -1,0 +1,30 @@
+.alert{
+	display: none;
+	color: var(--background-card);
+	padding: 1rem;
+	border-radius: .25rem;
+}
+
+.alert--ok{
+	background-color: var(--green-color);
+}
+
+.alert--error{
+	background-color: var(--red-color);
+}
+
+.alert--show{
+	display: block;
+	animation: show .5s ease-in-out;
+}
+
+
+@keyframes show{
+	0%{
+		opacity: 0;
+	}
+
+	100%{
+		opacity: 1;
+	}
+}

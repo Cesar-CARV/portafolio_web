@@ -1,0 +1,32 @@
+.btn_primary, .btn_secundary{
+	display: inline-block;
+	font-size: 1rem;
+	text-decoration: none;
+	cursor: pointer;
+	padding: calc(.7rem - 1px);
+	width: fit-content;
+}
+
+.btn_primary{
+	border: solid 1px var(--primary-color);
+	color: var(--background-card);
+	background-color: var(--primary-color);
+}
+
+.btn_secundary{
+	border: solid 1px var(--primary-color);
+	color: var(--primary-color);
+	background-color: var(--background);
+}
+
+:where(.btn_secundary, .btn_primary):hover {
+	opacity: .8;
+}
+
+
+.btn_easter_egg{
+	border: none;
+	background-color: transparent;
+	font-size: 1rem;
+	color: var(--text-color);
+}

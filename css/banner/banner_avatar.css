@@ -1,0 +1,23 @@
+.banner__avatar{
+	flex-shrink: 0;
+	width: 40%;
+	height: 98px;
+	margin: 0 0 1rem 0;
+}
+
+
+@media (min-width: 487px){
+	.banner__avatar{
+		width: 146px;
+		height: 146px;
+		margin: 0 0 1rem .5rem;
+	}
+}
+
+@media (min-width: 1000px){
+	.banner__avatar{
+		width: 368px;
+		height: 368px;
+		margin: 0 0 1rem .5rem;
+	}
+}

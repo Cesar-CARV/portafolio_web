@@ -1,0 +1,27 @@
+.banner{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: left;
+	/*padding: 1rem;*/
+	color: var(--text-color);
+
+}
+
+@media (min-width: 487px){
+	.banner{
+		align-items: center;
+		/*padding: 3rem;*/
+		flex-direction: row-reverse;
+	}
+}
+
+@media (min-width: 1000px){
+	.banner{
+		align-items: center;
+		/*padding: 1rem 10% 1rem 10%;*/
+		flex-direction: row-reverse;
+		justify-content: space-between;
+	}
+	
+}

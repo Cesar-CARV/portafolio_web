@@ -1,0 +1,6 @@
+.contact__form{
+	flex-grow: 1;
+	gap: 1.5rem;
+	display: flex;
+	flex-direction: column;
+}

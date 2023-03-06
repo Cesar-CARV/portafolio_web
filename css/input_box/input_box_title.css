@@ -1,0 +1,9 @@
+.input_box__title{
+	position: relative;
+	top: 1rem;
+	left: 1rem;
+	color: var(--input-title-color);
+	opacity: .5;
+	transition: all .1s linear;
+}
+
