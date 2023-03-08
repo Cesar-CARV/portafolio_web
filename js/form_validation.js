@@ -29,7 +29,7 @@ form.addEventListener('submit', e => {
 		return;
 	}
 
-	msg.innerText = "Se ah enviado de manera correcta el mensaje"
+	msg.innerText = "Se a enviado de manera correcta el mensaje"
 	alert.className = "alert alert--ok alert--show";
 	form.submit();
 
